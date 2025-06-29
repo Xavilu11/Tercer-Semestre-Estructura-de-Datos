@@ -1,0 +1,14 @@
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\bin\Debug\net9.0\Tercer Semestre Estructura de Datos.exe
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\bin\Debug\net9.0\Tercer Semestre Estructura de Datos.deps.json
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\bin\Debug\net9.0\Tercer Semestre Estructura de Datos.runtimeconfig.json
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\bin\Debug\net9.0\Tercer Semestre Estructura de Datos.dll
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\bin\Debug\net9.0\Tercer Semestre Estructura de Datos.pdb
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.GeneratedMSBuildEditorConfig.editorconfig
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.AssemblyInfoInputs.cache
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.AssemblyInfo.cs
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.csproj.CoreCompileInputs.cache
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.dll
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\refint\Tercer Semestre Estructura de Datos.dll
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.pdb
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.genruntimeconfig.cache
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\ref\Tercer Semestre Estructura de Datos.dll

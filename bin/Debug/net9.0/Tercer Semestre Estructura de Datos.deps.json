@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Tercer Semestre Estructura de Datos/1.0.0": {
+        "runtime": {
+          "Tercer Semestre Estructura de Datos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tercer Semestre Estructura de Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

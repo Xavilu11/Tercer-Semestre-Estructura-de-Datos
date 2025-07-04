@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tercer Semestre Estructura de Datos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e6a696e3f2fbabb01878871a6516d5291ecc79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f25fc071a7b0ec0b72f2b1be19c0a0ebe9fe2d20")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tercer Semestre Estructura de Datos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tercer Semestre Estructura de Datos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

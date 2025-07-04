@@ -1,8 +1,19 @@
+// Crear un programa que maneje N° cantidad de datos de tipo real en una lista. Una vez
+// cargados los datos en lista, el programa debe calcular el promedio de todos los datos
+// cargados. Posteriormente, el programa debe cargar los datos menores o igual al promedio en
+// una segunda lista, y los mayores en una tercera lista. Al finalizar este proceso, el programa
+// debe mostrar lo siguiente:
+// a. Los datos cargados en la lista principal.
+// b. El promedio.
+// c. Los datos cuyo valor sea igual o menor al promedio de todos los datos.
+// d. Los datos que sean mayores al promedio de todos los datos.
+
+
 using System;
 
 namespace ManejoDeNumeros
 {
-    // Clase para representar un número en la lista
+    // Esta es la clase para que represente un número en la lista
     class Nodo
     {
         public double Valor; // Almacena el número
@@ -15,18 +26,18 @@ namespace ManejoDeNumeros
         }
     }
 
-    // Clase para manejar la lista de números
+    // Esta es la clase para manejar la lista de números
     class ListaNumeros
     {
         private Nodo inicio; // Primer número de la lista
 
-        // Método para agregar un número a la lista
+        // Aquí se agrega un número a la lista
         public void Agregar(double valor)
         {
             Nodo nuevo = new Nodo(valor);
             if (inicio == null)
             {
-                inicio = nuevo; // Si la lista está vacía, el nuevo número es el primero
+                inicio = nuevo; // Aquí se indica que si la lista está vacía, el nuevo número es el primero
             }
             else
             {
@@ -39,7 +50,7 @@ namespace ManejoDeNumeros
             }
         }
 
-        // Método para calcular el promedio de los números
+        // Se ingresa la operacion para calcular el promedio de los números
         public double CalcularPromedio()
         {
             double suma = 0;
@@ -48,7 +59,7 @@ namespace ManejoDeNumeros
 
             while (actual != null)
             {
-                suma += actual.Valor; // Suma los números
+                suma += actual.Valor; // Suma los números ingresados
                 contador++;
                 actual = actual.Siguiente; // Avanza al siguiente número
             }
@@ -56,7 +67,7 @@ namespace ManejoDeNumeros
             return contador > 0 ? suma / contador : 0; // Devuelve el promedio
         }
 
-        // Método para mostrar todos los números de la lista
+        // Con esto se despliega todos los números de la lista
         public void Mostrar()
         {
             Nodo actual = inicio;
@@ -68,7 +79,7 @@ namespace ManejoDeNumeros
             Console.WriteLine();
         }
 
-        // Método para crear una nueva lista con números menores o iguales al promedio
+        // Aqui se inicia la operación para mostrar la nueva lista con números menores o iguales al promedio
         public ListaNumeros FiltrarMenoresIguales(double promedio)
         {
             ListaNumeros listaMenores = new ListaNumeros();
@@ -78,15 +89,15 @@ namespace ManejoDeNumeros
             {
                 if (actual.Valor <= promedio)
                 {
-                    listaMenores.Agregar(actual.Valor); // Agrega a la nueva lista
+                    listaMenores.Agregar(actual.Valor); // Agrega a la lista nueva
                 }
                 actual = actual.Siguiente; // Avanza al siguiente número
             }
 
-            return listaMenores; // Devuelve la lista de números menores o iguales
+            return listaMenores; // Devuelve los números menores o iguales
         }
 
-        // Método para crear una nueva lista con números mayores al promedio
+        // Se crea una nueva lista con números mayores al promedio
         public ListaNumeros FiltrarMayores(double promedio)
         {
             ListaNumeros listaMayores = new ListaNumeros();
@@ -105,17 +116,17 @@ namespace ManejoDeNumeros
         }
     }
 
-    // Clase principal para ejecutar el programa
+    // Esta es la clase principal para ejecutar el programa
     class Programa
     {
         static void Main()
         {
             ListaNumeros listaPrincipal = new ListaNumeros();
 
-            Console.Write("¿Cuántos números desea ingresar? ");
+            Console.Write("¿Cuántos números quiere ingresar? ");
             int cantidad = int.Parse(Console.ReadLine());
 
-            // Agregar números a la lista
+            // Agrega los números a la lista
             for (int i = 0; i < cantidad; i++)
             {
                 Console.Write($"Ingrese el número {i + 1}: ");
@@ -123,7 +134,7 @@ namespace ManejoDeNumeros
                 listaPrincipal.Agregar(numero);
             }
 
-            // Calcular el promedio
+            // Calcula el promedio
             double promedio = listaPrincipal.CalcularPromedio();
             Console.WriteLine($"El promedio es: {promedio}");
 
@@ -131,7 +142,7 @@ namespace ManejoDeNumeros
             ListaNumeros menores = listaPrincipal.FiltrarMenoresIguales(promedio);
             ListaNumeros mayores = listaPrincipal.FiltrarMayores(promedio);
 
-            // Mostrar resultados
+            // Muestra los resultados
             Console.WriteLine("Números ingresados:");
             listaPrincipal.Mostrar();
             Console.WriteLine("Números menores o iguales al promedio:");

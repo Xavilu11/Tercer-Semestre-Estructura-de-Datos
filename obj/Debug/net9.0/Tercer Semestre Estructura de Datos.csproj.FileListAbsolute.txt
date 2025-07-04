@@ -12,3 +12,4 @@ d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net
 d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.pdb
 d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.genruntimeconfig.cache
 d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\ref\Tercer Semestre Estructura de Datos.dll
+d:\UNIVERSIDAD\GITHUB XAVILU11\Tercer Semestre Estructura de Datos\obj\Debug\net9.0\Tercer Semestre Estructura de Datos.sourcelink.json
